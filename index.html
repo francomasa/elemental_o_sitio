@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Sitio Elemental</title>
+</head>
+<body>
+    <header>
+        <!--
+        Header da pagina
+        Contendo a logomarca e menu
+        -->
+        <div class="container">
+            <h1>Elemental O Sitio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre nos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--
+        Section sobre a loja
+        -->
+        <section id="sobre">
+            <div class="container">
+                <img src="./img/logo.png" class="store-front" alt="borboleta no sitio" />
+                <div>
+                    <h2>Sobre nos</h2>
+                    <p>Sonhando, experimentando, construindo e compartilhando outras formas de vida possíveis</p>
+                    <p>Quando passamos a não ignorar o que se passa na nossa volta, como que faz pra viver?,<br />
+                        Em busca dessa e de outras respostas, nós começamos nossas caminhadas individuais há alguns anos, 
+                        farejando outros modos de vida possíveis. Em 2018 nos encontramos e 2023 foi o ano de chegar em casa.
+                        <br />
+                        Cuidar um território é uma baita responsabilidade e disso eu tenho me dado conta aos poucos.</p>
+                    <p>Algumas colheitas</p>
+                    <ul class="brands-list">
+                        <li><img src="./img/tomates.png" alt="tomates" /></li>
+                        <li><img src="./img/inhame.png" alt="inhame" /></li>
+                        <li><img src="./img/morango.png" alt="morango" /></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        Section contato
+        -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <!--
+                    Subsection Fale Conosco
+                    -->
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Seu nome" required />
+                            <input type="email" placeholder="Seu e-mail" required />
+                            <input type="tel" placeholder="Seu telefone (Opcional)" />
+                            <textarea name="mensagem" id="mensagem" required placeholder="Deixe sua mensagem"></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <!--
+                    Subsection Nos acompanhe
+                    -->
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="https://www.instagram.com/elemental_ositio/" title="Sige-nos no Instagram">
+                                    <img src="./img/instagram.png" alt="Logo do Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Sige-nos no Facebook">
+                                    <img src="./img/facebook.png" alt="Logo do Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no YouTube">
+                                    <img src="./img/youtube.png" alt="Logo do YouTube" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--
+                    Subsection Venha ate nos
+                    -->
+                    <div>
+                        <h3>VIsite-nos</h3>
+                        <p>
+                            Estrada Jose Velho 78, Linha Cafe alta, Três Coroas RS
+                            <br />
+                            <small>(Necessario o agendamento previo)</small>
+                            <br />
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13895.65071167373!2d-50.7533766!3d-29.4605601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519272633cb0165%3A0x3ae12fea59d98efe!2sElemental%20-%20O%20S%C3%ADtio!5e0!3m2!1spt-BR!2sbr!4v1724713763078!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--
+    Section Footer
+    -->
+    <footer>
+        <div class="container">
+            <p>
+                &copy;| Elemental - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
